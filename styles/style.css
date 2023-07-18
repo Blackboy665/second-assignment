@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@500&display=swap');
+
+/* shared style */
+.btn-primary{
+  color:  rgba(255,66,165,1);
+}
+
+.nav-youtube-icon{
+ width: 1.7rem; 
+
+}
+.nav-tiktok-icon{
+    width: 1.25rem;
+}
+.nav-button{
+    background-color:rgba(11, 2, 35, 0.10); ;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left img{
+    width: 60px;
+    
+}
+.nav-left{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-left:13rem ;
+   margin-top: 2rem;
+   margin-bottom: 30px;
+   text-align: center;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Work Sans', sans-serif;
+
+}
+.nav-right{
+    gap: 30px;
+    display: flex;
+   align-items: center;
+   list-style: none;
+   color: #3C354F;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+margin-top: 2rem;
+margin-right:13rem ;
+margin-bottom: 30px;
+
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+
+
+
+
+
+
+
+/* responsive style */
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+  justify-content: center;
+     align-items: center;
+    }
+    .nav-right{
+        flex-direction: column;
+       margin-left: 200px;
+       gap: 40px;
+    }
+    .nav-left{
+        margin-right: 200px;
+    }
+    .nav-button{
+        font-size: 17px;
+        padding: 17px 30px ;
+        gap: 20px;
+        width: 250px;
+    }
+}
+
+/* tablet devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+ .nav-left{
+    margin-left:2rem;
+ }   
+ .nav-right{
+   margin-right:2rem;
+   gap: 15px;
+ }
+}
