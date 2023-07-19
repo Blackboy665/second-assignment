@@ -209,6 +209,7 @@ padding: 10px;
 .button-container{
  /* display: flex; */
  text-align: center;
+ margin-bottom: 20px;
 }
 .three-button-up{
     display: flex;
@@ -226,6 +227,84 @@ padding: 10px;
 .button-container button:hover{
  border: 1px solid #F948B2;
     cursor: pointer;
+}
+.footer-logo{
+    justify-content: center;
+display: flex;
+text-align: center;
+align-items: center;
+gap: 20px;
+padding: 60px;
+}
+.footer{
+
+    height: 50vh;
+    background: #0B0223; 
+   
+}
+.button-container-footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-button{
+    background-color: #0B0223;
+    border: none;
+    color: white;
+    font-size: 10px;
+}
+.footer-icon img{
+    width: 3%;
+background-color: white;
+
+}
+.footer-icon{
+   padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.last-button{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+}
+.last-button, .footer-button-1{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #0B0223;
+    border: none;
+  
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #0B0223;
+    border: none;
+    margin-top: 30px; 
+}
+.fast-three{
+    display: flex;
+    gap: 50px;
+}
+.second-three{
+    display: flex;
+    gap: 50px;
+}
+.last-button-first-two{
+    display: flex;
+    gap: 50px;
+}
+.last-button-second-two{
+    display: flex;
+    gap: 50px;  
 }
 
 
@@ -340,12 +419,32 @@ padding: 10px;
 .three-button-down, .three-button-up{
     gap: 2px;
 }
+.footer{
+    height: 100%;
+}
+.button-container-footer{
+ flex-direction: column;
 
+ align-items: center;
+}
+.last-button{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-icon{
+padding-top: 40px;
+    /* padding: 20px; */
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+ }
+ .footer-icon img{
+    width: 8%;
+    
+ }
+ .copy-right{
 
-
-
-
-
+ }
 
 
 
@@ -412,7 +511,9 @@ padding: 10px;
         bottom: 120px;
         margin-left: 60px;
     }
-
+    .footer{
+        height: 100%;
+    }
 
 
 }
