@@ -93,11 +93,10 @@ margin-top: 15px;
     margin-top: 19px;
     display: flex; 
     align-items: center;
-   
 }
 .banner-img{
     width: 60%;
-  margin-left:7rem ;
+  margin-left:10rem ;
 }
 .banner-title{
     color: #0B0223;
@@ -120,7 +119,6 @@ font-family: 'Work Sans', sans-serif;
 .banner li{
     /* color: #534C64; */
 list-style: none;
-    font-family: Work Sans;
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
@@ -129,7 +127,56 @@ color: rgba(83, 76, 100, .8);
 }
 .banner-text{
     margin-left: 13rem;
+    
 }
+.primary-font{
+    color:rgba(83, 76, 100, 8);
+text-align: center;
+font-size: 10px;
+font-family: 'Work Sans', sans-serif;
+font-weight: 400;
+padding: 10px;
+margin-bottom: 10px;
+}
+.funny-videos{
+    text-align: center;
+    margin-top: 60px;
+}
+.funny-videos-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Work Sans', sans-serif;
+font-size: 30px;
+font-weight: 700;
+
+}
+.funny-videos{
+    font-family: 'Work Sans', sans-serif; 
+    color: rgba(11, 2, 35, 1);
+/* text-align: right; */
+font-size: 20px;
+font-weight: 700;
+
+}
+.card img{
+    width: 14rem;
+    position: relative;
+ 
+    margin: 0px;
+padding: 0px;
+}
+.card{
+    word-wrap: break-word;
+    display: flex;
+justify-content: center;
+gap: 35px;
+}
+
+
+
+
 
 
 
@@ -183,6 +230,21 @@ color: rgba(83, 76, 100, .8);
     font-size:25px;
 
 }
+.card{
+    flex-direction: column;
+    gap:5px;
+   align-items: center; 
+}
+.funny-videos{
+    font-size: 10px;
+}
+.funny-videos-style{
+    font-size: 15px;
+}
+.primary-font{
+    font-size: 7px;
+  
+}
 
 }
 
@@ -202,5 +264,11 @@ color: rgba(83, 76, 100, .8);
      .banner{
         flex-direction: column-reverse;
         align-items:normal;
-     }    
+     }  
+     .card{
+        flex-direction: column;  
+        align-items: center;
+        gap: 8px;
+      
+     }  
 }
